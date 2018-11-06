@@ -1,0 +1,337 @@
+.stun {
+    background-image:
+    url(stunner.gif);
+   
+   background-size: contain;
+   margin: 0;
+   padding: 0;
+}
+body {
+
+   padding: 0;
+   margin-left:5%;
+}
+#main-doc {
+        margin-left:25%; 
+        padding:1px 16px;
+        height:1000px;
+        font-weight: bold;
+        
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    } 
+ 
+ 
+
+/* Section Styles */
+#navy {
+		position:fixed;
+  
+  top:0px;
+  left:0px;
+  width:80px;
+height:100%;
+  }
+  #navy ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#navy ul a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#navy ul a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#navy ul a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 650px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card:hover {
+  border-color: #ff99ff;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+   width: 45%;
+  height: auto;
+}
+
+.pic{
+	width: 500px;
+	height: auto;
+}
+
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
+
+.main-nav {
+    width: 100%;
+    background: black;
+    min-height: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    top:0;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .nav .name {
+      display: block;
+      margin-right: auto;
+      color: white;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: white
+  }
+
+section article{
+color: red;
+margin-bottom:100px;
+font-size:0.96em;
+}
+
+.title {
+font-size: 36px;
+font-weight: 700;
+} 
+
+.main-section {
+margin-bottom: 150px;
+margin-top: 250px;
+
+}
+.image-wrapper {
+    width: 200px;
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+article {
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+width: 40%;
+padding-left: .5rem;
+margin-left: .5rem;
+float: right;
+box-shadow: inset 5px 0 5px -5px #29627e;
+font-style: italic;
+color: #29627e;
+}
+
+.img-wrapper {
+    width: 200px;
+    float: right;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+
+.image-wrapper img {
+    width: 100%;
+}
+
+.img-wrapper img {
+    width: 100%;
+}
+@media screen and (max-width: 300px) {
+/* mobile phones */
+#navbar {
+    width:150px;
+}
+.title {
+    font-size: 18px;
+    font-weight: 700;
+}
+}
+
+.textDiv {
+    width: 30%;
+    padding:10px;
+    margin:10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: yellow;
+}
+
+#submission { 
+        background-image:
+        url(https://i0.wp.com/10thyearseniors.com/wp-content/uploads/2018/03/CommentPhotos.com_1407346153.jpg?w=703);
+       background-repeat: no-repeat;
+       background-size: cover;
+        }
+    
+    .submit {
+        color: green;
+        
+    }
+    #login { 
+        background-image:
+        url('kwey.gif');
+       background-repeat: no-repeat;
+       background-size: cover;
+        }
+   
+  
+
+    .textDiv {
+    width: 50%;
+    padding:10px;
+    margin:10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: yellow;
+    background-color: red;
+}
+
+    #main-doc {
+			margin-left:25%; 
+			padding:1px 16px;
+			height:1000px;
+	}
+	
+	
+
+.title {
+font-size: 36px;
+font-weight: 700;
+} 
+
+.event-section {
+    margin-bottom: 50px;
+    
+
+}
+.image-wrapper {
+        width: 200px;
+        float: left;
+        padding-right: 25px;
+        padding-bottom: 10px;
+    }
+
+    article {
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+    .img-wrapper {
+        width: 200px;
+        float: right;
+        padding-right: 25px;
+        padding-bottom: 10px;
+    }
+
+    #charisma{
+        border-style: solid;
+        border-color:blue;
+        border-width: thick 2px;
+        height: 300px;
+        background-color: yellow;
+    }
+
+    #Great_Characters{
+        border-style: solid;
+        border-color:red;
+        border-width: thick 2px;
+        height: 300px;
+        background-color: orange;
+    }
+
+    #Wrestling_skill{
+        border-style: solid;
+        border-color:purple;
+        border-width: thick 2px;
+        height: 300px;
+        background-color: blue;
+    }
+
+    #Mic_Skills{
+        border-style: solid;
+        border-color:yellow;
+        border-width: thick 2px;
+        height: 700px;
+        background-color: green;
+    }
+
+
+    .image-wrapper img {
+        width: 100%;
+    }
+
+    .img-wrapper img {
+        width: 100%;
+    }
+
+    .black {
+        background-color: black;
+        margin: 0;
+    }
