@@ -7,5 +7,11 @@ public class Driver {
 		Car carOne = new Car();
 		//toString is a method inherited from Object
 		System.out.println("carOne: "  +carOne.toString());
-	}
+		
+		//make a car object with instance variables set in the constructor
+		//declare the variable CarTwo and assign annd newCar to it
+		Car carTwo = new Car(1972, "DeLorean", "DMC");
+		//check out the toString result
+		System.out.println("carTwo: " +carTwo.toString());	
+}
 }
