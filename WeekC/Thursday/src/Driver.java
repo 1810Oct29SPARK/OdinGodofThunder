@@ -13,5 +13,10 @@ public class Driver {
 		Car carTwo = new Car(1972, "DeLorean", "DMC");
 		//check out the toString result
 		System.out.println("carTwo: " +carTwo.toString());	
-}
+
+		System.out.println("model of carTwo: "+carTwo.getModel());
+		//reset the model of carTwo
+		carTwo.setModel("NotDeLorean");
+		System.out.println("model of carTwo: "+carTwo.getModel());
+		}
 }

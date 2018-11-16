@@ -28,4 +28,18 @@ public class Car {
 	public String getMake() {
 		return this.make;
 	}
+	
+	public void setYearManufactureed(int year){
+		this.yearManufactured = year;
+	}
+	
+	public void setModel(String model){
+		this.model = model;
+	}
+
+	public void setMake(String make) {
+		this.make = make;
+	}
+
+	
 }
